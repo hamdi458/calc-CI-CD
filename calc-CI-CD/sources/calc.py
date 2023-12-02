@@ -1,5 +1,5 @@
 """
-La librairie calc pem:aermet de faire les opérations basiques de calcul entre deux   entiers.
+La librair    jdlplie calc pem:aermet de faire les opérations basiques de calcul entre deux   entiers.
 """
 
 def add(arg1,arg2):
