@@ -28,7 +28,7 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v3
         with:
-          context: ./sources
-          file: ../../calc-CI-CD/sources/Dockerfile
+          context: ./calc-CI-CD/sources
+          file: ./calc-CI-CD/sources/Dockerfile
           push: true
           tags: sldbahta/cicdgithub:1.0.${{github.run_number}}
